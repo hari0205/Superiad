@@ -55,5 +55,5 @@ func verifySignature(c *gin.Context) {
 		httpo.NewErrorResponse(httpo.SignatureDenied, "signature is invalid").Send(c, 403)
 		return
 	}
-	httpo.NewSuccessResponse(200, "signature is valid", nil).SendD(c)
+	httpo.NewSuccessResponseP(200, "signature is valid", nil).SendD(c)
 }

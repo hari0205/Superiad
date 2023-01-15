@@ -1,6 +1,6 @@
 module github.com/TheLazarusNetwork/superiad
 
-go 1.17
+go 1.18
 
 require (
 	github.com/TheLazarusNetwork/go-helpers/httpo v0.0.0-20221204180104-cfbb53a9a2cb
